@@ -13,6 +13,11 @@
   justify-content: center;
 }
 
+.aboutme-myPhoto > * {
+  max-width: 100%;
+  height: auto;
+}
+
 .aboutme-heading {
   font-weight: 600;
   margin-top: 80px;
@@ -49,6 +54,40 @@
   font-family: "Google Sans Regular";
   text-align: center;
   margin-bottom: 40px;
+}
+
+@media (max-width: 1380px) {
+  .heading-text-div {
+    font-size: 50px;
+    margin-top: 60px;
+  }
+
+  .SubHeading {
+    font-size: 50px;
+    margin-top: 40px;
+  }
+
+  .FinalWord {
+    font-size: 50px;
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .heading-text-div {
+    font-size: 30px;
+    margin-top: 0px;
+  }
+
+  .SubHeading {
+    font-size: 30px;
+    margin-top: 0px;
+  }
+
+  .FinalWord {
+    font-size: 30px;
+    margin-top: 0px;
+  }
 }
 
 /* Gallery 1 */

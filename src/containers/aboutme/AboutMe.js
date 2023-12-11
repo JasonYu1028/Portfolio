@@ -23,7 +23,7 @@ export default function AboutMe(props) {
             >
               <p>
                 You must want to know more about me, yeah! I am a student at the
-                University of Waterloo (Class 2026), where met a group of lovely
+                University of Waterloo (Class 2026). I met a group of lovely
                 peers whom I spent most of my time studying and hanging out
                 with. So, a little about my story...
               </p>
@@ -50,7 +50,7 @@ export default function AboutMe(props) {
               <p>
                 Twenty years ago, I was born into a family of four (I have an
                 elder brother) and raised in Anshan, a small city located in the
-                North-East of China, where I spent most of my previous 18 years.{" "}
+                North-East of China, where I spent most of my frist 18 years.{" "}
               </p>
               <p>
                 I'm a people person and enjoy spending time outside doors with
@@ -98,12 +98,12 @@ export default function AboutMe(props) {
             <div class="timeline__event__title">life at Cannda</div>
             <div class="timeline__event__description">
               <p>
-                In 2021, I was able to start pursuing my CFM degree at my dream
-                school, the University of Waterloo, where I interacted and
-                progressed with great people in the top mathematics faculty in
-                North America. Most importantly, I met my CFM buddies who
-                encouraged me when I was lost, supported me when I was
-                suffering, and shared my joy when I was successful.
+                In 2021, I started pursuing my CFM degree at my dream school,
+                the University of Waterloo, where I interacted and progressed
+                with great people in the top mathematics faculty in North
+                America. Most importantly, I met my CFM buddies who encouraged
+                me when I was lost, supported me when I was suffering, and
+                shared my joy when I was successful.
               </p>
               <p>
                 The professional skills I acquired at UWaterloo, the priceless

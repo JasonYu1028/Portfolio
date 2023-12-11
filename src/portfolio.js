@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Jason's Portfolio",
   description:
-    "An undergrad who always thrives to work on technical solutions to the real-world issues which utilzes quantitive analysis with programming capacity to create impactful contributions. Meeting a better self is my lifelong motto.",
+    "An undergrad who always thrives to work on technical solutions to financial needs and services utilzing quantitive analysis with programming capacity to create impactful contributions. Meeting a better self is my lifelong motto.",
   og: {
     title: "Jason Yu Portfolio",
     type: "website",
@@ -22,7 +22,7 @@ const greeting = {
   title: "Jason Yu",
   logo_name: "JasonYu",
   subTitle:
-    "An undergraduate who always thrives to work on technical solutions to real-world issues that utilize quantitative analysis with programming capacity to create impactful contributions. Meeting a better self is my lifelong motto.",
+    "An undergrad who always thrives to work on technical solutions to financial needs and services utilzing quantitive analysis with programming capacity to create impactful contributions. Meeting a better self is my lifelong motto.",
   githubProfile: "https://github.com/JasonYu1028",
 };
 
@@ -41,7 +41,7 @@ const socialMediaLinks = [
   },
   {
     name: "Email",
-    link: "mailto:z327yu@uwaterloo.ca",
+    link: "mailto:jasonyu0202@gmail.com",
     fontAwesomeIcon: "fa-google",
     backgroundColor: "#D14836",
   },
@@ -57,11 +57,71 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
+      title: "Finacial Modelling & Consulting",
+      fileName: "DataScienceImg",
+      skills: [
+        "⚡ Comprehensive quantitative modelling experience in dynamic forecasting for portfolio allocation and risk & compliance services",
+        "⚡ Investigated evolving tendencies and catalysts of industries and advised impactful recommendations by advanced analytical and insight-delivery techniques",
+        "⚡ Expertise in data analytics, encompassing data mining, governance, processing, reporting, visualization, and intelligent automation through algorithm development, modelling, and testing",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "ion-logo-python",
+          style: {
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "SQL",
+          fontAwesomeClassname: "carbon:sql",
+          style: {
+            color: "#6500d0",
+          },
+        },
+        {
+          skillName: "R",
+          fontAwesomeClassname: "carbon:logo-r-script",
+          style: {
+            color: "#95d000",
+          },
+        },
+        {
+          skillName: "BI",
+          fontAwesomeClassname: "logos:microsoft-power-bi",
+          style: {
+            color: "#d0009c",
+          },
+        },
+        {
+          skillName: "Tableau",
+          fontAwesomeClassname: "logos:tableau-icon",
+          style: {
+            color: "#32a852",
+          },
+        },
+        {
+          skillName: "Numpy",
+          fontAwesomeClassname: "vscode-icons:file-type-numpy",
+          style: {
+            color: "#d0009c",
+          },
+        },
+        {
+          skillName: "Pandas",
+          fontAwesomeClassname: "simple-icons:pandas",
+          style: {
+            color: "#D00000",
+          },
+        },
+      ],
+    },
+    {
       title: "Computer Science & Mathematics",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Designed and developed object-oriented programming game projects",
-        "⚡ Built full-stack applications (MERN)",
+        "⚡ One year of Object-Oriented Programming and Full-stack experience",
+        "⚡ Engaged in all phases of the software development life cycle, support testing, distributed systems, and active learning",
         "⚡ Knowledge of algorithm design and data abstraction, designing functional programs, optimization, and data analytics",
       ],
       softwareSkills: [
@@ -126,72 +186,12 @@ const skills = {
       ],
     },
     {
-      title: "Finacial Modelling & Consulting",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Solved challenging business issues and advised impactful recommendations by utilizing advanced analytical and insight-delivery techniques",
-        "⚡ Expertise in quantitative analytics, encompassing data governance, mining, quality, processing, reporting, visualization, and intelligent automation through algorithm development, modelling, and testing",
-        "⚡ Comprehensive quantitative modelling for dynamic forecasting in portfolio allocation and risk & compliance services",
-      ], 
-      softwareSkills: [
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "SQL",
-          fontAwesomeClassname: "carbon:sql",
-          style: {
-            color: "#6500d0",
-          },
-        },
-        {
-          skillName: "R",
-          fontAwesomeClassname: "carbon:logo-r-script",
-          style: {
-            color: "#95d000",
-          },
-        },
-        {
-          skillName: "BI",
-          fontAwesomeClassname: "logos:microsoft-power-bi",
-          style: {
-            color: "#d0009c",
-          },
-        },
-        {
-          skillName: "Tableau",
-          fontAwesomeClassname: "logos:tableau-icon",
-          style: {
-            color: "#32a852",
-          },
-        },
-        {
-          skillName: "Numpy",
-          fontAwesomeClassname: "vscode-icons:file-type-numpy",
-          style: {
-            color: "#d0009c",
-          },
-        },
-        {
-          skillName: "Pandas",
-          fontAwesomeClassname: "simple-icons:pandas",
-          style: {
-            color: "#D00000",
-          },
-        },
-      ],
-    },
-    {
       title: "Cloud Infrastructure & AI & ML",
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Experience working with Bot, NLP, and Cost Saving services on Azure",
         "⚡ Prototyped an AI-based web bot to benefit people seeking digital sources for secured investment",
-        "⚡ Deploying Machine Learning models on the cloud to use on mobile devices",
+        "⚡ Sourced, cleaned, and synthesized financial market data for training regression and classification Machine Learning models",
       ],
       softwareSkills: [
         {
@@ -302,6 +302,17 @@ const experience = {
       title: "Internships",
       experiences: [
         {
+          title: "Software Engineer, Asset Management Digital Solutions",
+          company: "KPMG LLP",
+          company_url: "https://www.kpmg.com/",
+          logo_path: "KPMG.png",
+          duration: "Sep 2023 - Dec 2023",
+          location: "Ontario, Canada",
+          description:
+            "Tasked with leading clients through digital transformation, I, along with 20+ developers and innvovative technology trailblazers, focused on tax innovation to unlock value and prepare our clients for the future by helping organizations realize opportunities through our far-reaching intelligence capabilities that allow for the development of modern software solutions. In a fast-paced experimental environment, our team collaborates with strategic partners and tax leaders across Canada to build next-generation solutions.",
+          color: "#9D0C9D",
+        },
+        {
           title: "Data Analyst, Governance Risk Compliance Services",
           company: "KPMG LLP",
           company_url: "https://www.kpmg.com/",
@@ -326,7 +337,7 @@ const experience = {
       ],
     },
     {
-      title: "Work",
+      title: "Entrepreneurships",
       experiences: [
         {
           title: "Co-Founder and Executive Department Director",
